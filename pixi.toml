@@ -1,0 +1,13 @@
+[project]
+authors = ["Petrus Hyvönen <petrus.hyvonen@gmail.com>"]
+channels = ["conda-forge/label/qgis_ltr", "conda-forge"]
+description = "Add a short description here"
+name = "pixi-qgis"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+qgis = ">=3.34.13,<4"
+poppler = ">=24.11.0,<25"
